@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width=textSize1+textSize2 height="40">
+  <g shape-rendering="crispEdges">
+    <rect width=${textSize1} height="40" fill=${color}></rect>
+    rect(class="container__text_left" width=textSize1 height="40" fill=color )=text1
+    rect(class="container__text_right" x=textSize1 width=textSize2 height="40" fill="red")=text2
+  g
+    text(x=10 y=26)=text1
+    text(x=textSize1+10 y=26)=text2
+</svg>
+
+svg(class="container" role="img" width=textSize1+textSize2 height="40")
+  g(class="container__block_left" shape-rendering="crispEdges")
+    rect(class="container__text_left" width=textSize1 height="40" fill=color )=text1
+    rect(class="container__text_right" x=textSize1 width=textSize2 height="40" fill="red")=text2
+  g
+    text(x=10 y=26)=text1
+    text(x=textSize1+10 y=26)=text2

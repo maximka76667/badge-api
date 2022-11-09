@@ -1,0 +1,29 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+
+.container {
+  display: inline-flex;
+  align-items: center;
+  background-color: #000;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Noto Sans", sans-serif;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.container__block_left {
+  background-color: orange;
+  font-size: 1rem;
+  padding: 5px 10px;
+}
+
+.container__block_right {
+  padding: 5px 10px;
+  fill: red;
+}
+
+.container__text_left,
+.container__text_right {
+  margin: 0;
+}
